@@ -123,8 +123,9 @@ nav {
 }
 
  
-.nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link:hover,
+.nav-link:focus {
+    
     opacity: 1;
 }
 
@@ -383,14 +384,6 @@ nav {
 .team-title {
     padding: 32px 0;
     text-align: center;
-}
-
-
-/* додала внизу */
-.social-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
 }
 
 
