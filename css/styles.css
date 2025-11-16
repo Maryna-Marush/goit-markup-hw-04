@@ -123,9 +123,8 @@ nav {
 }
 
  
-.nav-link:hover,
-.nav-link:focus {
-    
+.nav-link:hover::after,
+.nav-link:focus::after {
     opacity: 1;
 }
 
