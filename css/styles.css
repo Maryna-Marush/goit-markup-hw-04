@@ -409,6 +409,8 @@ nav {
     list-style: none;
     box-sizing: border-box;
 
+
+
 }
 
 .app-title {
@@ -489,6 +491,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     max-width: 1158px;
+
 }
 
 .footer-link {
@@ -528,3 +531,24 @@ letter-spacing: 0.03em;
     
 
 }
+
+/* додаю зміни */
+.footer-webstudio {
+    margin-right: 120px;
+} 
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+}
+
+/* ----- */
