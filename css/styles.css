@@ -363,8 +363,8 @@ nav {
 .team-list {
     display: flex;
     gap: 24px;
-    margin: 0;
-    padding: 0;
+    /* видалилв margin: 0; padding: 0; */
+    
     justify-content: center;
 
 }
@@ -395,12 +395,17 @@ nav {
     margin: 0;
 }
 /* додаю зміни соцмережі */
-.social-links-team {
+.social-team {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 16px;
 
 }
+/* додаю зміни соцмережі */
+.link-social
+
+
 
 .portfolio {
     padding-top: 120px;
@@ -446,28 +451,22 @@ nav {
     list-style: none;
     display: block;
     text-align: left;
-    
-
 
 }
-
 
 .portfolio-items {
     width: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
-
-    /* box-shadow */
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- /* box-shadow */
+
  .portfolio-items:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
  }
- /* ----- */
-
+ 
 
 .portfolio-items:nth-child(3n) {
     margin-right: 0;
@@ -488,15 +487,14 @@ nav {
     letter-spacing: 0.02em;
     color: #434455;
 
-
 }
-/* зміни для тексту що вилазить */
+
 .portfolio-img-wrapper {
     position: relative;
     overflow: hidden;
    
 }
-/* Стилі для параграфа (оверлея) */
+
 .overlay-text {
     position: absolute;
     top: 0;
@@ -509,18 +507,11 @@ nav {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* Початковий стан: зміщуємо параграф вниз на 100% його висоти (приховано) */
     transform: translateY(100%);
-
-    /* Додаємо плавний перехід для властивості transform */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Умова ховера: коли наводимо мишку на li.portfolio-items, 
-   знаходимо всередині нього .overlay-text і застосовуємо translateY(0%) */
 .portfolio-items:hover .overlay-text {
-    /* Кінцевий стан: повертаємо параграф на його початкове місце */
     transform: translateY(0%);
 }
 
