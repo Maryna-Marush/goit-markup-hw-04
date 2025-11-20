@@ -311,7 +311,7 @@ nav {
     flex: calc((100% - 72px) / 4);
 }
 
-/* додала внизу */
+
 .box-icon {
     display: flex;
     align-items: center;
@@ -394,18 +394,34 @@ nav {
     color: #434455;
     margin: 0;
 }
-/* додаю зміни соцмережі */
-.social-team {
+
+/* додаю зміни соцмережі 20.11 */
+.social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 16px;
 
 }
-/* додаю зміни соцмережі */
-.link-social
+.social-item {
+    width: 40px;
+    height: 40px;
+}
 
+.social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon {
+    fill: #f4f4fd
+}
 
+/* -------- */
 
 .portfolio {
     padding-top: 120px;
