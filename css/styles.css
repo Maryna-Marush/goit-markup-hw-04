@@ -395,12 +395,14 @@ nav {
     margin: 0;
 }
 
+
 /* додаю зміни соцмережі 20.11 */
 .social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 16px;
+    align-items: center;
 
 }
 .social-item {
