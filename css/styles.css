@@ -567,9 +567,9 @@ nav {
 
 
 .footer .container {
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 1158px;
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
 
 }
 
@@ -614,27 +614,29 @@ letter-spacing: 0.03em;
 
 .footer-webstudio {
     margin-right: 120px;
+    
 } 
 
 /* додаю зміни 20.11 */
-.footer-items {
-    display: flex;
-    align-items: baseline;
-}
+
 .social-media-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    
     color: var(--white-color);
     margin-bottom: 16px;
+    margin-left: 0;
+    
+
 }
 
 .footer-social {
     display: flex;
     gap: 16px;
+}
+.footer-social-media {
+    
 }
 
 .footer-social-items {
