@@ -253,6 +253,7 @@ nav {
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
+    
 
 }
 
@@ -260,7 +261,6 @@ nav {
 .button:focus {
 background-color: #404BBF;
 
-    
 }
 
 
@@ -608,9 +608,10 @@ letter-spacing: 0.03em;
 
 }
 
-
+.footer-webstudio {
+    margin-right: 120px;
     
-
+} 
 
 .social-media-title {
     font-weight: 500;
