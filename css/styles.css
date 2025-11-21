@@ -208,8 +208,6 @@ nav {
 .page-title {
     background-color: #2e2f42;
     line-height: 1.07;
-    background-position: center;
-    background-size: cover;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
